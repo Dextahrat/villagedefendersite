@@ -270,7 +270,8 @@ body {
     }
 
     .nav-links {
-        display: none;
+        gap: 15px;
+        font-size: 0.9rem;
     }
 
     .features h2,
@@ -287,5 +288,16 @@ body {
     .btn-large {
         padding: 15px 30px;
         font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
     }
 }
